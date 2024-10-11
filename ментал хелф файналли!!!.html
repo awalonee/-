@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поддержка ментального здоровья</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Header and Navigation */
+        header {
+            background-image: linear-gradient(to right, #66ccff, #99ff99);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #66ccff;
+            transition: 0.3s;
+        }
+
+        /* Main Content */
+        section {
+            padding: 40px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        section h2 {
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            color: #66ccff;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* Tips Section */
+        #tips {
+            display: none;
+            background-color: #e0f7fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #66ccff;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #3399ff;
+        }
+
+        ul {
+            text-align: left;
+            margin: 0 auto;
+            display: inline-block;
+        }
+
+        ul li {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            font-size: 0.9em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            section h2 {
+                font-size: 1.8em;
+            }
+
+            button {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+
+            nav a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Поддержка ментального здоровья</h1>
+    <p>Забота о себе — ключ к благополучию</p>
+</header>
+
+<nav>
+    <a href="#home">Главная</a>
+    <a href="#selfcare">Уход за собой</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<section id="home">
+    <h2>Добро пожаловать!</h2>
+    <p>Этот сайт создан, чтобы помочь вам найти полезную информацию и советы для улучшения ментального здоровья.</p>
+</section>
+
+<section id="selfcare">
+    <h2>Советы по уходу за собой</h2>
+    <p>Важно уделять внимание своему психическому здоровью ежедневно. Вот несколько советов, которые помогут вам чувствовать себя лучше.</p>
+    <button onclick="showTips()">Показать советы</button>
+    <div id="tips">
+        <ul>
+            <li>Регулярно занимайтесь физической активностью, даже если это просто прогулка на свежем воздухе.</li>
+            <li>Находите время для общения с друзьями и близкими.</li>
+            <li>Практикуйте техники расслабления, такие как медитация или глубокое дыхание.</li>
+            <li>Поддерживайте здоровый режим сна и старайтесь высыпаться.</li>
+            <li>Питайтесь правильно и следите за своим водным балансом.</li>
+        </ul>
+    </div>
+</section>
+
+<section id
